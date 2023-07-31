@@ -1,14 +1,11 @@
-import * as React from 'react';
-import { View, Text } from 'react-native';
-import styles from "./style"
+import * as React from "react";
+import { View, Text } from "react-native";
+import styles from "./style";
 
-export default function Title(){
-    
-    
-    return(
-        <View style={styles.boxTitle}>
-            <Text style={styles.textTitle}>ONEBIT HEALTH</Text>
-        </View>
-
-    );
+export default function Title() {
+  return (
+    <View style={styles.boxTitle}>
+      <Text style={styles.textTitle}>ONEBIT HEALTH</Text>
+    </View>
+  );
 }
