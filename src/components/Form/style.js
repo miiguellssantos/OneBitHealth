@@ -5,8 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 30,
     backgroundColor: "#fff",
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
+    borderRadius: 30,
     alignItems: "center",
     paddingTop: 30,
     height: "100%",
@@ -56,6 +55,20 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "50%",
   },
+  listImc: {
+    marginTop: 20,
+
+  },
+  resultImcItem: {
+    fontSize: 26,
+    color: "red",
+    height: 50,
+    width: "100%",
+    paddingRight: 20,
+  },
+  textResultItem: {
+    fontSize: 16,
+  }
 });
 
 export default styles;
